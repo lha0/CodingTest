@@ -34,10 +34,10 @@ const inputArr = input.trim().split(" ")
 110
 78
 158
-
+*/
 const fs = require('fs');
 const [n, input] = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
-*/
+
 const solution = input => { //이 안에 솔루션 코드 작성
     const A = parseInt(input[0]);
     const B = parseInt(input[1]);
