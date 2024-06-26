@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 rl.on('line', function(line) {
-  console.log(line.trim());
+  input.push(line.trim());
 
   rl.close();
 }).on("close", function() {
@@ -27,7 +27,7 @@ const rl = readline.createInterface({
 let input = [];
 
 rl.on('line', function (line) {
-  input.push(line.trim())
+  input.push(line.trim());
 })
   .on('close', function () {
   console.log(input);
